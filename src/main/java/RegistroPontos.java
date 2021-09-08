@@ -7,6 +7,7 @@ public class RegistroPontos {
     public RegistroPontos(CalculadoraBonus cb){
         bonus = cb;
     }
+
     public void fazerUmComentario(Usuario u) {
         u.pontos += 3 * bonus.bonus(u);
     }
