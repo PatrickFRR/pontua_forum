@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TesteRegistroPontos" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-08T14:44:47" hostname="patrickfrr-System-Product-Name" time="0.078">
+<testsuite name="TesteRegistroPontos" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-09-08T14:53:22" hostname="patrickfrr-System-Product-Name" time="0.068">
   <properties/>
-  <testcase name="pontosCriarTopico()" classname="TesteRegistroPontos" time="0.078"/>
+  <testcase name="pontosCriarTopicoVip()" classname="TesteRegistroPontos" time="0.059"/>
+  <testcase name="pontosCriarTopico()" classname="TesteRegistroPontos" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
