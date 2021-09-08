@@ -35,5 +35,16 @@ public class TesteRegistroPontos {
         rp.criarUmTopico(u);
         assertEquals(u.pontos, 15);
     }
-    
+
+    @Test
+    public void pontosCriarTopicoVipBonusDoDia() {
+        Usuario u = new Usuario();
+        u.nome = "Ribeiro";
+        u.vip = true;
+        CalculadoraBonus cb = new CalculadoraBonus();
+        cb.bonusDoDia = 2;
+        RegistroPontos rp = new RegistroPontos(cb);
+        rp.criarUmTopico(u);
+        assertEquals(u.pontos, 50);
+    }
 }
